@@ -1,0 +1,7 @@
+{:itonami.blueprint/id "ake"
+ :itonami.blueprint/name "ake (朱) — community-edit membrane"
+ ;; One classification key (itonami-lib blueprint.edn schema): ISIC Rev.4 class 6312,
+ ;; chosen from README.md for the registry catalog (JUN-1439). Equivalence to
+ ;; ISIC Rev.5 is not checked here; the lib code table decides that.
+ :itonami.blueprint/isic-rev4 "6312"
+ :itonami.blueprint/domain :knowledge/community-edit}
